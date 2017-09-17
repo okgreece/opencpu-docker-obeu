@@ -1,4 +1,4 @@
-FROM opencpu/base
+FROM okgreece/opencpu-obeu
 
 COPY ./libraries.R libraries.R
 
