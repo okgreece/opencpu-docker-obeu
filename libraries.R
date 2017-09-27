@@ -13,7 +13,7 @@ if(!require(Cluster.OBeu)){
   devtools::install_github("okgreece/Cluster.OBeu", quick=T, local=T, force_deps=F, threads=4)
   library(Cluster.OBeu)
 } else {
-  devtools::update_packages("okgreece/Cluster.OBeu")
+  devtools::install_github("okgreece/Cluster.OBeu")
 }
 
 #timeseries
@@ -21,7 +21,7 @@ if(!require(TimeSeries.OBeu)){
   devtools::install_github("okgreece/TimeSeries.OBeu", quick=T, local=T, force_deps=F, threads=4)
   library(TimeSeries.OBeu)
 } else {
-  devtools::update_packages("okgreece/TimeSeries.OBeu")
+  devtools::install_github("okgreece/TimeSeries.OBeu")
 }
 
 #descriptive
@@ -29,5 +29,5 @@ if(!require(DescriptiveStats.OBeu)){
   devtools::install_github("okgreece/DescriptiveStats.OBeu", quick=T, local=T, force_deps=F, threads=4)
   library(DescriptiveStats.OBeu)
 } else {
-  devtools::update_packages("okgreece/DescriptiveStats.OBeu")
+  devtools::install_github("okgreece/DescriptiveStats.OBeu")
 }
